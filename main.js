@@ -14,7 +14,8 @@ var Looping = false
 let Delay = false
 let GV = document.getElementById("Gold")
 
-document.getELementById("BGM").play()
+
+document.getElementById("BGM").play()
 
 const savedGOLV = localStorage.getItem("GOLV");
 if (savedGOLV === null || isNaN(savedGOLV)) {
