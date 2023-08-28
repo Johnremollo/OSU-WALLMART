@@ -1,6 +1,10 @@
 
 //window.postMessage("addCoins", "*")
 
+setTimeout(function() {
+    document.getElementById("BGM").play()
+}, 10)
+
 setInterval(function() {
     let numElement = document.getElementById("Count");
     let numValue = Number(numElement.textContent) + 1;
@@ -15,7 +19,7 @@ let Delay = false
 let GV = document.getElementById("Gold")
 
 
-document.getElementById("BGM").play()
+
 
 const savedGOLV = localStorage.getItem("GOLV");
 if (savedGOLV === null || isNaN(savedGOLV)) {
