@@ -1,0 +1,27 @@
+#Count{
+    position:relative;
+    margin-left:0;
+    margin-top: -10;
+    
+}
+#SpB{
+    position:absolute;
+    height: 1cm;
+    width: 1cm;
+    shape-margin:  50%;
+}
+#GCIMG{
+    position:fixed;
+    height: 1cm;
+    width: 1cm;
+    margin-top: 0.05cm;
+}
+#Gold{
+    font-size: 1cm;
+}
+
+body{
+    background-image: url("BG\ IMAGE.png");
+    background-size:100% 100%;
+    overflow: hidden;
+}
